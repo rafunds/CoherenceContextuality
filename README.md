@@ -11,17 +11,27 @@ We have also presented some results found for violations that were searched usin
 # What is included
 
 1) Full set of classical vertices (deterministic edge assignments) for small event graphs.
-2) Full set of inequalities for the event graphs W4=K4, W5, W6, W7, K5, K6.
-3) An easy Python code for checking if a given point pertains to K5.
-4) A large number of quantum violations for the K5 inequalities in 2, 3, and 4 dimensional quantum systems.
-5) All deterministic assignments for K7.
+2) Full set of V- and H-representations for various classes of different event graphs (simple and fully connected graphs)
+3) Python code for checking if a given point pertains to K5.
+4) Monte Carlo quantum violations for the inequalities of K5.
+5) Naive Python code for obtaining V-representations given an event graph polytope.
+6) Efficient Sage code for obtaining V-representations given an event graph polytope. 
 
 # How to cite
 
 Bib.
-@article{wagner2022inequalities,
-  title={Inequalities witnessing coherence, nonlocality, and contextuality},
-  author={Wagner, Rafael and Barbosa, Rui Soares and Galv{\~a}o, Ernesto F.},
-  journal={arXiv preprint arXiv:2209.02670},
-  year={2022}
+@article{wagner2024inequalities,
+  title = {Inequalities witnessing coherence, nonlocality, and contextuality},
+  author = {Wagner, Rafael and Barbosa, Rui Soares and Galv\~ao, Ernesto F.},
+  journal = {Physical Review A},
+  volume = {109},
+  issue = {3},
+  pages = {032220},
+  numpages = {18},
+  year = {2024},
+  month = {Mar},
+  publisher = {American Physical Society},
+  doi = {10.1103/PhysRevA.109.032220},
+  url = {https://link.aps.org/doi/10.1103/PhysRevA.109.032220}
 }
+
