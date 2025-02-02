@@ -1,6 +1,6 @@
 # Inequality Zoo for Event Graphs
 
-We provide here a series of numerical results for the e-print:https://arxiv.org/abs/2209.02670
+We provide here a series of numerical results for the e-print: https://arxiv.org/abs/2209.02670
 
 In vertices .txt files we provide the set of all deterministic assignments that define the classical polytope. The vertices represent the V-representation of the polytope, and it is computationally easy to find vertices for some 'small' graphs. One can find the vertices with the following algorithm: find all deterministic assignments, find all cycles in the graph, exclude the assignments that allow for a single 0 in a given cycle. These violate the transitivity of equality, and in terms of probabilities these violate the Boole inequalities.
 
